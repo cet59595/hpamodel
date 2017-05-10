@@ -15,5 +15,6 @@ INSTALLATION INSTRUCTIONS
 
 1. Install R from https://www.r-project.org/
 2. Install R Studio from https://www.rstudio.com/
-3. Put the ui.R and server.R files in a directory of your choice. ui.R contains the code to generate the graphical interface, while server.R contains the backend that does all of the needed calculations. More informations about the model can be found in: Walker et al., Proc Biol Sci. 2010; Walker et al., PLoS Biol 2012; Rankin et al., PLoS One 2012   
-4. Open either file in R Studio and press "Run app"
+3. The following packages needs to be installed (via the R Studio interface or the install.packages command): shiny, deSolve
+4. Put the ui.R and server.R files in a directory of your choice. ui.R contains the code to generate the graphical interface, while server.R contains the backend that does all of the needed calculations. More informations about the model can be found in: Walker et al., Proc Biol Sci. 2010; Walker et al., PLoS Biol 2012; Rankin et al., PLoS One 2012   
+5. Open either file in R Studio and press "Run app"
